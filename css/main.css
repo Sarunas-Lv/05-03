@@ -14,6 +14,7 @@
 .grid-layer{
   height: 100%;
   color: white;
+  text-shadow: 0px 7px 8px #000000;
   text-transform: uppercase;
   font-size: 1.2vw;
   font-weight: 700;
@@ -24,7 +25,7 @@
   padding: 0.2vw;
 }
 .grid-layer:hover{
-  background: linear-gradient(#e6646400, #ffffff57);
+  background: linear-gradient(#241e1e7c, #000000e1);
 }
 .text-shown{
   font-size: 3vw;

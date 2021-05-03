@@ -9,7 +9,25 @@
 body::-webkit-scrollbar {
     display: none;
 }
+footer{
+  height: 20vh;
+  max-height: 80px;
+  font-size: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: mediumturquoise;
+}
 ul{list-style-type:none;}
 li{display:inline-block;}
-@media screen and (max-width: 991px){}
-@media screen and (max-width: 479px){}
+@media screen and (max-width: 991px){
+  footer{
+    font-size: 4vw;
+  }
+}
+@media screen and (max-width: 479px){
+  footer{
+    font-size: 15px;
+  }
+}

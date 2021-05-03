@@ -1,0 +1,21 @@
+.social{
+  padding: 15px;
+  background-color: rgb(146, 241, 241);
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  font-size: 18px;
+  font-weight: 900;
+}
+.social-cube{
+  height: 45px;
+  width: 45px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-cube:hover{
+  background-color: black;
+  color: white;
+}
