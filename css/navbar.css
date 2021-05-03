@@ -47,7 +47,7 @@ nav{
   }
   navbar-list {
     height: 50px;
-    min-width: 160px;
+    min-width: 100px;
   }
   .navbar-list button{
     display: inline-block;
@@ -73,8 +73,10 @@ nav{
   .dropdown-content {
   display: none;
   position: absolute;
+  margin-top: 20px;
+  top: 30px;
+  right: 1px;
   background-color: #f1f1f18c;
-  min-width: 160px;
   overflow: auto;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -82,13 +84,14 @@ nav{
 
   .dropdown-content a {
   color: black;
-  padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
   .dropdown a:hover {background-color: #ddd;}
-  .dropbtn:hover .dropdown-content{
+  .navbar-list:hover .dropdown-content{
     display: block;
+    display: flex;
+    flex-direction: column;
   }
 }

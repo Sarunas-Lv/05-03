@@ -19,7 +19,10 @@ footer{
   text-align: center;
   background-color: mediumturquoise;
 }
-ul{list-style-type:none;}
+ul{
+  list-style-type:none;
+  margin-left: 0px;
+  padding: 0px;}
 li{display:inline-block;}
 @media screen and (max-width: 991px){
   footer{
