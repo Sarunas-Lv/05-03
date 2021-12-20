@@ -5,7 +5,7 @@
 
 ## General info
 
-This is basic Responsice Web Design task with three break-points and first attempt of employing pre-writen JavaScript for a rudimental drop-down.
+This is basic Responsive Web Design task with three break-points and first attempt of employing pre-writen JavaScript for a rudimental drop-down.
 
 ## Technologies
 
